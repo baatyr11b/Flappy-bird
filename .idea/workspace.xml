@@ -2,64 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flappy-bird" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flappy_bird.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/animations/BirdAnimation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/essentials/Music.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/essentials/StageSize.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/fxml/game.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/fxml/gameover.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/fxml/highscores.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/fxml/menu.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/fxml/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/manage/SceneManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/manage/ScoreManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/scenes/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/scenes/GameEnded.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/scenes/HighScores.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/scenes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/sprites/Bird.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/sprites/Panel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Flappy_bird/game/sprites/Sprite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/backgorund.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/bird-anim/bird-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/bird-anim/bird-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/bird-anim/bird-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/bird-anim/bird-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/bird.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/pipe-down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/pipe-up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/music/Themesong.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/music/crush.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/music/score.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scores.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/animations/BirdAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/essentials/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/essentials/StageSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/fxml/game.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/fxml/gameover.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/fxml/highscores.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/fxml/menu.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/fxml/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/manage/SceneManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/manage/ScoreManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/scenes/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/scenes/GameEnded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/scenes/HighScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/sprites/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/sprites/Panel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/sprites/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scores.txt" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,25 +60,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/sprites/Bird.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/sprites/Panel.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -199,14 +124,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/game/fxml/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -323,7 +257,6 @@
         <option value="$PROJECT_DIR$/src/game/sprites/Sprite.java" />
         <option value="$PROJECT_DIR$/src/game/Game.java" />
         <option value="$PROJECT_DIR$/src/game/essentials/MusicThread.java" />
-        <option value="$PROJECT_DIR$/src/game/fxml/style.css" />
         <option value="$PROJECT_DIR$/src/game/fxml/gameover.fxml" />
         <option value="$PROJECT_DIR$/src/game/StageSize.java" />
         <option value="$PROJECT_DIR$/src/game/scenes/ScoreManager.java" />
@@ -347,11 +280,12 @@
         <option value="$PROJECT_DIR$/src/game/manage/ScoreManager.java" />
         <option value="$PROJECT_DIR$/src/game/scenes/HighScores.java" />
         <option value="$PROJECT_DIR$/src/game/manage/SceneManager.java" />
+        <option value="$PROJECT_DIR$/src/game/fxml/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -366,8 +300,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -506,8 +440,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24281392" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -516,7 +451,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28150573" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28150573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39779004" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,13 +567,6 @@
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/scenes/MainMenu.java" />
-    <entry file="file://$PROJECT_DIR$/src/game/fxml/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/fxml/game.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -789,11 +717,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/fxml/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
         </state>
       </provider>
     </entry>
