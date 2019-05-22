@@ -9,7 +9,6 @@
 
 
 
-
 Bishkek 2019
 
 
@@ -48,6 +47,3 @@ Name      : Baatyr
 Surname   : Birnazarov 
 mobile    : +996702899986
 email     : baatyr.birnazarov@iaau.edu.kg
-
-
-
