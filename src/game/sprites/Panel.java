@@ -16,7 +16,8 @@ public class Panel extends Pane implements Sprite
     public Boolean scoreAdded = false;
     private double width, height, verticalSpace;
 
-    public ImageView getBottomPanel() {
+    public ImageView getBottomPanel()
+    {
         return bottomPanel;
     }
 

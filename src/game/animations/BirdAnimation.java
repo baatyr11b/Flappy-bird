@@ -15,7 +15,8 @@ public class BirdAnimation extends Transition
     private Bird bird;
     private List<Image> birdImages;
 
-    public BirdAnimation(Bird b) {
+    public BirdAnimation(Bird b)
+    {
         bird = b;
         birdImages = new ArrayList<>();
         for (int i = 0; i < 4; i++) {
@@ -28,7 +29,8 @@ public class BirdAnimation extends Transition
     }
 
     @Override
-    protected void interpolate(double frac) {
+    protected void interpolate(double frac)
+    {
         if (frac < 0.25) {
             bird.setImage(birdImages.get(0));
         } else if (frac < 0.5) {

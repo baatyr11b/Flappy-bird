@@ -13,7 +13,8 @@ public class Music extends Thread
     }
 
     @Override
-    public void run() {
+    public void run()
+    {
         super.run();
         try {
             String musicFile = filename;
