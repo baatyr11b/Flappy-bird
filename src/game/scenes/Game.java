@@ -138,7 +138,7 @@ public class Game extends Application {
 
         gameStarted = false;
 
-        pressAnything = new Text("Press SPACE to start...");
+        pressAnything = new Text("   ");
         pressAnything.setX(100);
         pressAnything.setY(100);
 
