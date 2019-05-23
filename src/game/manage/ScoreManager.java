@@ -6,39 +6,47 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class ScoreManager {
+public class ScoreManager
+{
     private static ScoreManager scoreManager = new ScoreManager();
     public static ScoreManager getInstance(){ return scoreManager; }
 
     private int score = 0;
     private List<Integer> scores;
 
-    private ScoreManager(){
+    private ScoreManager()
+    {
         score = 0;
         scores = new ArrayList<>();
     }
-    public void incrementScore() {
+    public void incrementScore()
+    {
         score += 1;
     }
-    public int getScore() {
+    public int getScore()
+    {
         return score;
     }
-    public List<Integer> getScores() {
+    public List<Integer> getScores()
+    {
         parseScores();
         return scores;
     }
-    public void resetScore() {
+    public void resetScore()
+    {
         score = 0;
     }
 
-    private void downloadFile() {
+    private void downloadFile()
+    {
         String server = "Server";
         int port = 21;
         String user = "user";
         String pass = "pass";
     }
 
-    public void writeToFile() {
+    public void writeToFile()
+    {
         try (FileWriter fw = new FileWriter("scores.txt", true);
              BufferedWriter bw = new BufferedWriter(fw);
              PrintWriter out = new PrintWriter(bw)) {

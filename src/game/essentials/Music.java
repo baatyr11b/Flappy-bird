@@ -8,7 +8,8 @@ import java.io.File;
 public class Music extends Thread
 {
     private String filename;
-    public Music(String file) {
+    public Music(String file)
+    {
         filename = file;
     }
 

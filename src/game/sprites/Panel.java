@@ -21,12 +21,13 @@ public class Panel extends Pane implements Sprite
         return bottomPanel;
     }
 
-    public ImageView getTopPanel() {
+    public ImageView getTopPanel()
+    {
         return bottomPanel;
     }
 
-    public Panel(AnchorPane root) {
-        //setPrefSize(StageSize.width, StageSize.height);
+    public Panel(AnchorPane root)
+    {
         topPanelImage = new Image("file:resources/images/pipe-down.png");
         bottomPanelImage = new Image("file:resources/images/pipe-up.png");
         width = topPanelImage.getWidth();
@@ -40,11 +41,13 @@ public class Panel extends Pane implements Sprite
         this.getChildren().addAll(bottomPanel, topPanel);
     }
 
-    public void move() {
+    public void move()
+    {
         setLayoutX(getLayoutX() -2);
     }
 
-    public Rectangle2D getBoundary(String orientation) {
+    public Rectangle2D getBoundary(String orientation)
+    {
         if(Objects.equals(orientation, "TOP")) {
             return new Rectangle2D(this.getLayoutX(), this.getLayoutY() + 5, width, height - 5);
         } else if (Objects.equals(orientation, "BOTTOM"))
@@ -54,12 +57,14 @@ public class Panel extends Pane implements Sprite
     }
 
     @Override
-    public Rectangle2D getBoundary() {
+    public Rectangle2D getBoundary()
+    {
         return null;
     }
 
     @Override
-    public boolean intersects(Sprite s) {
+    public boolean intersects(Sprite s)
+    {
         return s.getBoundary().intersects(this.getBoundary("TOP")) || s.getBoundary().intersects(this.getBoundary("BOTTOM"));
     }
 

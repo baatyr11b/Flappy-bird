@@ -14,12 +14,14 @@ import javafx.stage.Stage;
 public class Main extends Application
 {
     private static Stage primaryStage;
-    public static Stage getPrimaryStage() {
+    public static Stage getPrimaryStage()
+    {
         return primaryStage;
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception
+    {
         Main.primaryStage = primaryStage;
         VBox root = FXMLLoader.load(getClass().getResource("/game/fxml/menu.fxml"));
         primaryStage.setTitle("Flappy Bird");
@@ -29,18 +31,21 @@ public class Main extends Application
     }
 
     @FXML
-    private void playButtonClicked() throws Exception {
+    private void playButtonClicked() throws Exception
+    {
         SceneManager.getInstance().getGameScene().start(primaryStage);
         new Music("resources/music/Themesong.mp3").run();
     }
 
     @FXML
-    private void highScoresButtonClicked() throws Exception {
+    private void highScoresButtonClicked() throws Exception
+    {
         SceneManager.getInstance().getHighScores().start(primaryStage);
     }
 
     @FXML
-    private void quitButtonClicked() throws Exception {
+    private void quitButtonClicked() throws Exception
+    {
         Platform.exit();
     }
 
