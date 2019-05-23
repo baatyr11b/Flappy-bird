@@ -1,12 +1,14 @@
-#vbox {
-  -fx-background-image: url("../../../../../resources/images/bg.png");
+#vbox
+{
+  -fx-background-image: url("../../../../../resources/images/background.png");
 }
 #h1 {
-  -fx-font-size: 30pt;
+  -fx-font-size: 20pt;
   -fx-font-family: "Courier New";
 }
 
-.button {
+.button
+ {
     -fx-background-color: 
         #707070,
         linear-gradient(#fcfcfc, #f3f3f3),
