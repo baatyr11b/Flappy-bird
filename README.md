@@ -38,8 +38,6 @@ Free
 Proposed partners:
 Nobody
 
-Git repository link:
-https://github.com/baatyr11b/Flappy-bird
 
 Contact person:
 Name      : Baatyr
